@@ -45,7 +45,8 @@ def get_batch(batch_size=32):
 fc = torch.nn.Linear(W_target.size(0), 1)
 
 for batch_idx in count(1):
-	import pdb; pdb.set_trace()
+	import pdb; 
+	pdb.set_trace()
     # Get data
     batch_x, batch_y = get_batch()
 
